@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+#header {
+    display: flex;
+}
+
+#logoParent {
+    margin: 0, 0, 0, 0;
+    width: 10%;
+    height: auto;
+    margin-left: 3vw;
+    margin-right: 8vw;
+}
+
+#logo {
+    max-width: 60%;
+    height: auto;
+    color: aliceblue;
+}
+
+.H_Option {
+    margin-top: 1.6vw;
+    margin-left: 4.5vw;
+    color: white;
+    font-size: 1.3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.H_Option:hover {
+    font-size: 1.4vw;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    color: rgb(237, 125, 137);
+    text-decoration-line:underline;
+}
+
+#contactParent {
+    margin: 0, 0, 0, 0;
+}
+
+#ContactButton {
+    margin-top: 1.2vw;
+    margin-left: 9vw;
+    width: 10vw;
+    height: 2.4vw;
+    font-size: 1.6vw;
+    border-radius: 0.4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    background-color: rgb(237, 125, 137);
+}
+
+#ContactButton:hover {
+    background-color: rgb(40, 40, 40);
+    border: 0.1vw solid rgb(237, 125, 137);
+    color: white;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+#NamePara {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: rgb(237, 125, 137);
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#Middle {
+    align-items: center;
+    display: flex;
+}
+
+#Middle1 {
+    width: 50%;
+    margin-left: 8vw;
+}
+
+#Middle2 {
+    width: 50%;
+}
+
+#MiddleTitle {
+    font-size: 4.5vw;
+    color: white;
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#IntroPara {
+    color: white;
+    font-size: 1.4vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: monospace;
+}
+
+#WomanImage {
+    margin-top: 3vw;
+    margin-left: 7vw;
+    width: 55%;
+    height: auto;
+    border-radius: 15vw;
+}
+
+#LearnButton {
+    margin-top: 1.2vw;
+    width: 13vw;
+    height: 2.4vw;
+    font-size: 1.6vw;
+    border-radius: 0.4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+
+#LearnButton:hover {
+    border: 0.1vw solid white;
+    background-color: black;
+    color: white;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+#section1 {
+    border: 0.2vw solid rgb(237, 125, 137);
+    border-radius: 1vw;
+    display: flex;
+    margin-top: 1vw;
+    width: 80%;
+    margin-left: 9vw;
+}
+
+#para1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+#para2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4vw;
+    color: rgb(237, 125, 137);
+    text-align: center;
+    align-items: center;
+}
+
+#section1_1 {
+    align-items: center;
+    padding: 2vw;
+    width: 60%;
+}
+
+#formInput {
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border: none;
+    font-size: 1.4vw;
+    border-bottom: 0.1vw solid rgb(237, 125, 137);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section1_2 {
+    align-items: center;
+    padding: 6vw;
+    width: 40%;
+}
+
+#s2p1 {
+    /* text-align: center; */
+    color: rgb(237, 125, 137);
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#s2p2 {
+    text-align: justify;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#appLogo {
+    width: 15%;
+    height: auto;
+}
+
+#appParent {
+    display: flex;
+}
+
+#appPara{
+    margin-top: 1vw;
+    color: white;
+    font-size: 1vw;
+}
